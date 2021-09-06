@@ -1,0 +1,42 @@
+<launch>
+  <!-- Arguments -->
+  <arg name="map_file" default="$(find rl_navigation)/maps/map.yaml"/>
+  <arg name="open_rviz" default="true"/>
+  <arg name="move_forward_only" default="true"/>
+
+  <!-- Turtlebot3 -->
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find rl_navigation)/worlds/train_world1.world"/>
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="headless" value="false"/>
+    <arg name="debug" value="false"/>
+  </include>  
+
+
+  <param name="robot_description" command="$(find xacro)/xacro $(find rl_navigation)/urdf/turtlebot3_burger.urdf.xacro" />
+
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-urdf -model turtlebot3_burger 
+                                -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
+  <!--node name="pub_odom_tf" pkg="rl_navigation" type="pub_odom_tf_node" /-->
+  <node name="pub_map_odom_tf" pkg="rl_navigation" type="pub_map_odom_tf_node" />
+  <!-- Map server -->
+  <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+  <node pkg="tf" type="static_transform_publisher" name="static_broadcaster1" args="-0.032 0 0.172 0 0 0 1 base_footprint2 base_scan 100" />
+
+  <!-- move_base -->
+  <include file="$(find rl_navigation)/launch/move_base.launch">
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include>
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find rl_navigation)/rviz/turtlebot3_navigation.rviz"/>
+  </group>
+</launch>

@@ -1,0 +1,205 @@
+epsilon:  0.5036580669405218
+Episode:  502 ; Arrival at:  586 ; Average reward:  1.298526872793333
+Episode:  503 ; Arrival at:  586 ; Average reward:  1.1411238382202387
+Episode:  504 ; Collision at:  140 ; Average reward:  -0.6619610374305714
+epsilon:  0.5023989217731706
+Episode:  505 ; Arrival at:  586 ; Average reward:  0.7339628683032027
+Episode:  506 ; Collision at:  433 ; Average reward:  0.09365720355717577
+epsilon:  0.5011429244687376
+Episode:  507 ; Arrival at:  586 ; Average reward:  1.1475738148657024
+Episode:  508 ; Arrival at:  586 ; Average reward:  0.765539234508964
+epsilon:  0.49989006715756584
+Episode:  509 ; Arrival at:  586 ; Average reward:  1.0197411965723489
+epsilon:  0.49864034198967194
+Episode:  510 ; Arrival at:  586 ; Average reward:  0.9104296998522048
+Episode:  511 ; Arrival at:  586 ; Average reward:  1.3115966642239492
+epsilon:  0.4973937411346978
+Episode:  512 ; Arrival at:  586 ; Average reward:  0.5457951801113939
+Episode:  513 ; Arrival at:  464 ; Average reward:  0.6723841656374208
+epsilon:  0.4961502567818611
+epsilon:  0.49490988113990647
+Episode:  514 ; Arrival at:  586 ; Average reward:  1.0074982979998233
+Episode:  515 ; Arrival at:  586 ; Average reward:  1.386716606814977
+epsilon:  0.49367260643705674
+Episode:  516 ; Arrival at:  586 ; Average reward:  1.443150740415052
+epsilon:  0.4924384249209641
+Episode:  517 ; Arrival at:  586 ; Average reward:  1.33661110931577
+Episode:  518 ; Arrival at:  586 ; Average reward:  1.2892310866383088
+epsilon:  0.49120732885866175
+Episode:  519 ; Arrival at:  586 ; Average reward:  0.594670091197893
+Episode:  520 ; Arrival at:  586 ; Average reward:  1.3464752751560276
+epsilon:  0.4899793105365151
+Episode:  521 ; Arrival at:  586 ; Average reward:  0.8948800959227956
+Episode:  522 ; Arrival at:  211 ; Average reward:  0.6552115273187124
+epsilon:  0.4887543622601738
+Episode:  523 ; Arrival at:  586 ; Average reward:  1.3474430771626804
+Episode:  524 ; Arrival at:  586 ; Average reward:  1.2843554850873256
+epsilon:  0.4875324763545234
+Episode:  525 ; Arrival at:  537 ; Average reward:  1.1728390762671859
+Episode:  526 ; Arrival at:  586 ; Average reward:  1.3775214029386194
+epsilon:  0.4863136451636371
+Episode:  527 ; Arrival at:  396 ; Average reward:  1.0982771833415814
+Episode:  528 ; Arrival at:  586 ; Average reward:  0.653357576624863
+epsilon:  0.48509786105072805
+Episode:  529 ; Arrival at:  578 ; Average reward:  1.1986775354774326
+epsilon:  0.4838851163981013
+Episode:  530 ; Collision at:  491 ; Average reward:  0.5143853010237618
+Episode:  531 ; Arrival at:  586 ; Average reward:  0.5691957691526489
+epsilon:  0.48267540360710603
+Episode:  532 ; Arrival at:  586 ; Average reward:  1.2446435136300593
+Episode:  533 ; Arrival at:  477 ; Average reward:  0.6329102301614457
+epsilon:  0.4814687150980883
+Episode:  534 ; Arrival at:  586 ; Average reward:  1.2540289974554482
+Episode:  535 ; Arrival at:  586 ; Average reward:  0.9249579293000224
+epsilon:  0.4802650433103431
+Episode:  536 ; Arrival at:  586 ; Average reward:  1.2532097973790097
+epsilon:  0.47906438070206725
+Episode:  537 ; Arrival at:  586 ; Average reward:  0.6718326399308728
+Episode:  538 ; Arrival at:  586 ; Average reward:  0.7188331409487808
+epsilon:  0.4778667197503121
+Episode:  539 ; Arrival at:  586 ; Average reward:  0.862019957731498
+Episode:  540 ; Arrival at:  586 ; Average reward:  0.7784111520568324
+epsilon:  0.47667205295093634
+Episode:  541 ; Arrival at:  586 ; Average reward:  0.6641162159251272
+Episode:  542 ; Arrival at:  586 ; Average reward:  1.2773836819005902
+epsilon:  0.47548037281855904
+Episode:  543 ; Arrival at:  586 ; Average reward:  0.9980463513633817
+epsilon:  0.47429167188651267
+Episode:  544 ; Arrival at:  586 ; Average reward:  0.6244280918349282
+Episode:  545 ; Arrival at:  586 ; Average reward:  0.504710482633699
+epsilon:  0.4731059427067964
+Episode:  546 ; Arrival at:  586 ; Average reward:  0.7703862224091129
+Episode:  547 ; Arrival at:  586 ; Average reward:  0.7799925029352195
+epsilon:  0.4719231778500294
+Episode:  548 ; Arrival at:  471 ; Average reward:  1.2656987236249633
+Episode:  549 ; Arrival at:  586 ; Average reward:  1.1149996414938574
+epsilon:  0.4707433699054044
+Episode:  550 ; Arrival at:  368 ; Average reward:  1.1342479541720145
+Episode:  551 ; Arrival at:  586 ; Average reward:  0.8282031634759022
+epsilon:  0.4695665114806409
+Episode:  552 ; Arrival at:  586 ; Average reward:  0.6289803350566097
+Episode:  553 ; Arrival at:  248 ; Average reward:  0.8409512427196161
+epsilon:  0.4683925952019393
+Episode:  554 ; Arrival at:  586 ; Average reward:  0.7246314277658381
+Episode:  555 ; Arrival at:  242 ; Average reward:  0.9709999981400733
+epsilon:  0.4672216137139345
+Episode:  556 ; Arrival at:  586 ; Average reward:  1.0686485411154096
+Episode:  557 ; Arrival at:  586 ; Average reward:  0.9069081052808751
+epsilon:  0.4660535596796497
+Episode:  558 ; Arrival at:  586 ; Average reward:  0.4795091820188174
+Episode:  559 ; Arrival at:  586 ; Average reward:  0.9790139681879569
+epsilon:  0.4648884257804506
+Episode:  560 ; Collision at:  348 ; Average reward:  -0.398971810619602
+Episode:  561 ; Collision at:  25 ; Average reward:  -7.4336738530835635
+Episode:  562 ; Arrival at:  586 ; Average reward:  1.4028547831618658
+epsilon:  0.4637262047159995
+Episode:  563 ; Arrival at:  586 ; Average reward:  0.793626280128376
+Episode:  564 ; Arrival at:  487 ; Average reward:  1.111215805123723
+epsilon:  0.4625668892042095
+Episode:  565 ; Arrival at:  586 ; Average reward:  1.3805889379523866
+epsilon:  0.461410471981199
+Episode:  566 ; Arrival at:  586 ; Average reward:  0.7353181430670708
+Episode:  567 ; Arrival at:  586 ; Average reward:  1.1978436731107232
+epsilon:  0.46025694580124604
+Episode:  568 ; Arrival at:  586 ; Average reward:  0.9207372836528583
+Episode:  569 ; Arrival at:  93 ; Average reward:  1.4899988688465335
+Episode:  570 ; Arrival at:  447 ; Average reward:  1.1492774697015564
+Episode:  571 ; Collision at:  67 ; Average reward:  -2.881943845549574
+epsilon:  0.45910630343674297
+Episode:  572 ; Collision at:  229 ; Average reward:  -0.5202554909112899
+Episode:  573 ; Arrival at:  586 ; Average reward:  0.7125805616016557
+epsilon:  0.45795853767815115
+Episode:  574 ; Arrival at:  586 ; Average reward:  0.6209306296013959
+Episode:  575 ; Arrival at:  586 ; Average reward:  0.6417844465311111
+epsilon:  0.4568136413339558
+Episode:  576 ; Arrival at:  504 ; Average reward:  1.4505548727226492
+Episode:  577 ; Arrival at:  586 ; Average reward:  1.2334331089758188
+epsilon:  0.45567160723062095
+Episode:  578 ; Arrival at:  586 ; Average reward:  1.270428312786083
+Episode:  579 ; Collision at:  81 ; Average reward:  -3.2233693996610193
+epsilon:  0.4545324282125444
+Episode:  580 ; Arrival at:  547 ; Average reward:  1.1403466573972205
+Episode:  581 ; Arrival at:  586 ; Average reward:  0.8090220208232031
+epsilon:  0.45339609714201307
+Episode:  582 ; Arrival at:  586 ; Average reward:  1.0703008686760498
+Episode:  583 ; Arrival at:  586 ; Average reward:  1.0840317139639257
+epsilon:  0.45226260689915804
+Episode:  584 ; Arrival at:  572 ; Average reward:  1.116373227396215
+epsilon:  0.4511319503819102
+Episode:  585 ; Arrival at:  523 ; Average reward:  1.4660926547880049
+Episode:  586 ; Arrival at:  586 ; Average reward:  0.6602899692664059
+epsilon:  0.4500041205059554
+Episode:  587 ; Arrival at:  586 ; Average reward:  0.8717534790130812
+Episode:  588 ; Arrival at:  586 ; Average reward:  0.6536907395563736
+epsilon:  0.4488791102046905
+epsilon:  0.4477569124291788
+Episode:  589 ; Arrival at:  550 ; Average reward:  0.7601430256160695
+Episode:  590 ; Arrival at:  552 ; Average reward:  1.3694622997228696
+epsilon:  0.44663752014810587
+Episode:  591 ; Arrival at:  586 ; Average reward:  0.5317376261969721
+epsilon:  0.44552092634773566
+epsilon:  0.44440712403186633
+Episode:  592 ; Arrival at:  586 ; Average reward:  0.7837334181624382
+Episode:  593 ; Arrival at:  560 ; Average reward:  0.8316265164304427
+epsilon:  0.44329610622178667
+Episode:  594 ; Arrival at:  586 ; Average reward:  1.0907544673769296
+Episode:  595 ; Arrival at:  586 ; Average reward:  0.6866358620783689
+epsilon:  0.4421878659562322
+Episode:  596 ; Collision at:  258 ; Average reward:  0.2566995850059001
+Episode:  597 ; Collision at:  238 ; Average reward:  0.43311362219931065
+Episode:  598 ; Arrival at:  236 ; Average reward:  1.1672556795754165
+epsilon:  0.44108239629134166
+Episode:  599 ; Arrival at:  586 ; Average reward:  1.0604468212803713
+Episode:  600 ; Arrival at:  586 ; Average reward:  0.5986616427777829
+epsilon:  0.43997969030061335
+Episode:  601 ; Arrival at:  581 ; Average reward:  1.034480678312484
+Episode:  602 ; Arrival at:  586 ; Average reward:  0.5800929768371872
+epsilon:  0.43887974107486183
+Episode:  603 ; Arrival at:  487 ; Average reward:  0.7840517468850376
+Episode:  604 ; Arrival at:  586 ; Average reward:  0.615096165531802
+epsilon:  0.4377825417221747
+Episode:  605 ; Arrival at:  586 ; Average reward:  0.6432030308454243
+epsilon:  0.43668808536786924
+Episode:  606 ; Arrival at:  586 ; Average reward:  0.6483642397811169
+Episode:  607 ; Arrival at:  258 ; Average reward:  1.202774317534901
+Episode:  608 ; Arrival at:  586 ; Average reward:  0.8301768175914956
+epsilon:  0.4355963651544496
+Episode:  609 ; Arrival at:  586 ; Average reward:  1.191834324390018
+epsilon:  0.4345073742415635
+Episode:  610 ; Arrival at:  586 ; Average reward:  0.9358871373668531
+Episode:  611 ; Arrival at:  569 ; Average reward:  0.8572691446870236
+epsilon:  0.4334211058059596
+Episode:  612 ; Arrival at:  586 ; Average reward:  0.7545139100612746
+Episode:  613 ; Arrival at:  586 ; Average reward:  0.7567695234177718
+epsilon:  0.4323375530414447
+Episode:  614 ; Arrival at:  586 ; Average reward:  1.2855224878592302
+epsilon:  0.4312567091588411
+Episode:  615 ; Arrival at:  578 ; Average reward:  0.8922504973748576
+Episode:  616 ; Arrival at:  586 ; Average reward:  0.79369392294564
+epsilon:  0.43017856738594407
+Episode:  617 ; Arrival at:  586 ; Average reward:  0.9386806408508066
+Episode:  618 ; Arrival at:  586 ; Average reward:  0.8496649667601837
+epsilon:  0.4291031209674792
+Episode:  619 ; Arrival at:  586 ; Average reward:  1.4485712341499162
+Episode:  620 ; Arrival at:  281 ; Average reward:  1.3427843011044263
+epsilon:  0.42803036316506055
+Episode:  621 ; Arrival at:  586 ; Average reward:  0.5344616928379214
+Episode:  622 ; Arrival at:  586 ; Average reward:  1.0998548793735328
+epsilon:  0.4269602872571479
+Episode:  623 ; Arrival at:  586 ; Average reward:  1.1408708830059584
+Episode:  624 ; Arrival at:  586 ; Average reward:  0.9605078284360015
+epsilon:  0.42589288653900503
+Episode:  625 ; Arrival at:  586 ; Average reward:  0.6219827293159916
+epsilon:  0.4248281543226575
+Episode:  626 ; Arrival at:  586 ; Average reward:  1.3943561844720167
+Episode:  627 ; Arrival at:  586 ; Average reward:  1.1778435050166889
+epsilon:  0.4237660839368509
+Episode:  628 ; Arrival at:  586 ; Average reward:  0.7256173378006542
+Episode:  629 ; Arrival at:  586 ; Average reward:  0.5552659974886547
+epsilon:  0.4227066687270088
+Episode:  630 ; Arrival at:  586 ; Average reward:  0.7679799844641837
+epsilon:  0.4216499020551913
+Episode:  631 ; Arrival at:  586 ; Average reward:  1.6304895566696171
+Episode:  632 ; Arrival at:  586 ; Average reward:  1.1298522388196752
+epsilon:  0.4205957773000534
+Episode:  633 ; Arrival at:  586 ; Average reward:  0.6824345014137864
