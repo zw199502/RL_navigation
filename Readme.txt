@@ -4,6 +4,7 @@ Title: A Hierarchical Deep Reinforcement Learning Framework with High Efficiency
 tensorflow-gpu version >= 2.0
 python verison >= 3.5
 ubuntu18.04 + ros melodic full desktop which includes Gazebo
+Please download https://github.com/osrf/gazebo_models into ~/.gazebo/models
 
 2. Fold turtlebot3_teleop is used for manual contol with keyboard
 
