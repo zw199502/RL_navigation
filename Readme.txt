@@ -1,4 +1,5 @@
 Title: A Hierarchical Deep Reinforcement Learning Framework with High Efficiency and Generalization for Fast and Safe Navigation
+Paper video: https://youtu.be/39LyfzhB47k
 
 1. prerequisites
 tensorflow-gpu version >= 2.0
