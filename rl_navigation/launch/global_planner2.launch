@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<launch>
+    <!--pre_built map-->
+    <arg name="map_file" default="$(find rl_navigation)/maps/map.yaml"/>
+    <!-- Map server -->
+    <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
+
+    <node name="planner" pkg="global_planner" type="planner">
+        <rosparam file="$(find rl_navigation)/config/real_time_cost_map2.yaml" command="load" ns="costmap"/>
+        <!--param name="use_dijkstra" value="true" /-->
+        <!--param name="use_grid_path" value="true" /-->
+        <remap from="/planner/goal" to="/move_base_simple/goal"/>
+    </node>
+
+    <!--node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find rl_navigation)/rviz/path.rviz"/-->
+</launch>

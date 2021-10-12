@@ -1,0 +1,58 @@
+<launch>
+  
+  <node pkg="tf" type="static_transform_publisher" name="static_broadcaster1" args="0.0 0 0.0 0 0 0 1 base_link velodyne 100" />
+  <arg name="scan_topic" default="scan" />
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
+    <rosparam>
+      odom_frame: odom
+      base_frame: base_link
+      map_frame: map
+
+      map_update_interval: 2.0 # Publish new map
+
+      maxUrange: 5.5 # Should be just less than sensor range
+      maxRange: 6.1 # Should be just greater than sensor range
+      particles: 100 # Increased from 80
+
+      # Update frequencies
+      linearUpdate: 0.25
+      angularUpdate: 0.5
+      temporalUpdate: 2.0
+      resampleThreshold: 0.5
+
+      # Initial Map Size
+      xmin: -15.0
+      ymin: -15.0
+      xmax: 15.0
+      ymax: 15.0
+      delta: 0.05
+
+      # All default
+      sigma: 0.05
+      kernelSize: 1
+      lstep: 0.1
+      astep: 0.1
+      iterations: 5
+      lsigma: 0.075
+      ogain: 3.0
+      lskip: 0
+      llsamplerange: 0.01
+      llsamplestep: 0.01
+      lasamplerange: 0.005
+      lasamplestep: 0.005
+
+    </rosparam>
+    <remap from="scan" to="$(arg scan_topic)"/>
+  </node>
+
+  <arg name="move_forward_only" default="true"/>
+
+  <!-- move_base -->
+  <include file="$(find rl_navigation)/launch/igor_move_base.launch">
+    <arg name="move_forward_only" value="$(arg move_forward_only)"/>
+  </include>
+
+  <node pkg="rviz" type="rviz" name="rviz" required="true"
+    args="-d $(find rl_navigation)/rviz/igor_dwa.rviz"/>
+
+</launch>
