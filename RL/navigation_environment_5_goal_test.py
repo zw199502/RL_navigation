@@ -422,7 +422,7 @@ class Env:
             vel_cmd.linear.x = 0.
             vel_cmd.angular.z = 0.
             self.pub_cmd_vel.publish(vel_cmd)
-
+        self.current_step = self.current_step + 1
         if self.current_step % (2 * self.control_frequency) == 0:
             arrive2 = True
             self.sub_goal_x = self.sub_goal_position[0]
