@@ -45,6 +45,8 @@ I.   running baseline one with DDPG    python DDPG.py
 
 II.  running baseline two with DDQN    python DDQN.py
 
+III. running pure DRL python comparison_normal.py
+
 I and II are baselines
 
 III. running the low-level DRL         python navigation_DQN_5.py
