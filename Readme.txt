@@ -37,7 +37,7 @@ please install corresponding ROS packages when errors occur
 
 (2) source devel/setup.bash
 
-(3) roslaunch rl_navigation roslaunch rl_navigation turtlebot3_stage_1.launch
+(3) roslaunch rl_navigation turtlebot3_stage_1.launch
 
 (4) cd ws_RL/src/RL
 
